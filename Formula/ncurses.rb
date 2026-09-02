@@ -14,7 +14,7 @@ class Ncurses < Formula
   end
 
   bottle do
-    root_url "https://github.com/forsummer/localbrew/releases/download"
+    root_url "https://github.com/forsummer/localbrew/releases/download/ncurses"
     rebuild 1
     sha256 ventura: "a71c6158397435368f38ad42431ec05339c9d75cc9cf5c5910c92ae9a4cc90b3"
   end

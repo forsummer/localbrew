@@ -14,7 +14,7 @@ class Pkgconf < Formula
   end
 
   bottle do
-    root_url "https://github.com/forsummer/localbrew/releases/download"
+    root_url "https://github.com/forsummer/localbrew/releases/download/pkgconf"
     rebuild 2
     sha256 ventura: "4e49193dd1e4253685f517554db7d2a6ab60e1a5480665e46b366e30cb68ddfe"
   end

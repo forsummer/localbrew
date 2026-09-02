@@ -11,7 +11,7 @@ class Htop < Formula
   end
 
   bottle do
-    root_url "https://github.com/forsummer/localbrew/releases/download"
+    root_url "https://github.com/forsummer/localbrew/releases/download/htop"
     rebuild 1
     sha256 cellar: :any, ventura: "f8187594f50e5d9264d2395fc97bed9ad209ee9ddb0820fc6e6c7045acb3965a"
   end
