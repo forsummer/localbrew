@@ -21,7 +21,7 @@ class Ripgrep < Formula
   depends_on "asciidoctor" => :build
   depends_on "pkgconf" => :build
   depends_on "rust" => :build
-  depends_on "pcre2"
+  depends_on "forsummer/localbrew/pcre2"
 
   # downloads crates during install
   allow_network_access! :build
