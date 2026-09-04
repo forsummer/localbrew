@@ -15,8 +15,6 @@ class Sqlite < Formula
     end
   end
 
-  no_autobump! because: :incompatible_version_format
-
   bottle do
     root_url "https://github.com/forsummer/localbrew/releases/download/sqlite"
     rebuild 2
