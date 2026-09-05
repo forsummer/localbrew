@@ -23,7 +23,7 @@ class Sqlite < Formula
 
   keg_only :provided_by_macos
 
-  depends_on "readline"
+  depends_on "forsummer/localbrew/readline"
 
   on_linux do
     depends_on "zlib-ng-compat"

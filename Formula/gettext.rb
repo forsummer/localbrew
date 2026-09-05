@@ -16,8 +16,8 @@ class Gettext < Formula
     sha256 ventura: "bd658a2d9d6b09631f957e8d6eea309ca1602c5addba69b18206ea97dd1cbeac"
   end
 
-  depends_on "json-c" # for spit
-  depends_on "libunistring"
+  depends_on "forsummer/localbrew/json-c" # for spit
+  depends_on "forsummer/localbrew/libunistring"
 
   uses_from_macos "curl" # for spit
   uses_from_macos "libxml2"

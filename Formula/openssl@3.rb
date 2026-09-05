@@ -19,7 +19,7 @@ class OpensslAT3 < Formula
     sha256 ventura: "6ed887f59e2566c57f57b8ed466f06c17ea3cf694f04ef217460cd09fc74d314"
   end
 
-  depends_on "ca-certificates" => :no_linkage
+  depends_on "forsummer/localbrew/ca-certificates" => :no_linkage
 
   on_linux do
     resource "Test::Harness" do
