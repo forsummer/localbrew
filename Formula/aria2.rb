@@ -21,7 +21,7 @@ class Aria2 < Formula
   uses_from_macos "libxml2"
 
   on_macos do
-    depends_on "gettext"
+    depends_on "forsummer/localbrew/gettext"
   end
 
   on_linux do
