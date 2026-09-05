@@ -13,10 +13,10 @@ class Aria2 < Formula
   end
 
   depends_on "pkgconf" => :build
-  depends_on "c-ares"
-  depends_on "libssh2"
-  depends_on "openssl@3"
-  depends_on "sqlite"
+  depends_on "forsummer/localbrew/c-ares"
+  depends_on "forsummer/localbrew/libssh2"
+  depends_on "forsummer/localbrew/openssl@3"
+  depends_on "forsummer/localbrew/sqlite"
 
   uses_from_macos "libxml2"
 
