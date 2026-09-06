@@ -11,7 +11,7 @@ class Libunistring < Formula
   bottle do
     root_url "https://github.com/forsummer/localbrew/releases/download/libunistring"
     rebuild 1
-    sha256 cellar: :any, ventura: "27d5fdf218a471efc0da2829eaf690136efae8ec03931cd5c8563f98ea60dd98"
+    sha256 cellar: :any, ventura: "41da2a8866f0a44a42cb57ab8da1c1497b3ac7f7708245847201a91c9b905413"
   end
 
   def install

@@ -14,7 +14,7 @@ class JsonC < Formula
   bottle do
     root_url "https://github.com/forsummer/localbrew/releases/download/json-c"
     rebuild 2
-    sha256 cellar: :any, ventura: "6c3735f4a8edcc866ef58da6f1921e62e63c9780edd5f6014b29e48cb2609081"
+    sha256 cellar: :any, ventura: "3d44bcdb5287e16ddc538c1b77bd48ea870ab6991ddaf9ee086448ba94e52fdb"
   end
 
   depends_on "cmake" => :build

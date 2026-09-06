@@ -16,7 +16,7 @@ class OpensslAT3 < Formula
   bottle do
     root_url "https://github.com/forsummer/localbrew/releases/download/openssl@3"
     rebuild 1
-    sha256 ventura: "6ed887f59e2566c57f57b8ed466f06c17ea3cf694f04ef217460cd09fc74d314"
+    sha256 ventura: "9a34b4b5efa09380b67852a5e12d38e4975492344950c032446a175427f41fe9"
   end
 
   depends_on "forsummer/localbrew/ca-certificates" => :no_linkage

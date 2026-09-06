@@ -18,7 +18,7 @@ class Sqlite < Formula
   bottle do
     root_url "https://github.com/forsummer/localbrew/releases/download/sqlite"
     rebuild 2
-    sha256 cellar: :any, ventura: "37c5daffb399b5a94c460c816fab96bcb043278a7d2f4f6a258b6eee169db7c0"
+    sha256 cellar: :any, ventura: "964f6805d3d11cf1f8a19289ae1007a7e501ca32570de99d12a71109d3640fc4"
   end
 
   keg_only :provided_by_macos

@@ -15,7 +15,7 @@ class CAres < Formula
   bottle do
     root_url "https://github.com/forsummer/localbrew/releases/download/c-ares"
     rebuild 1
-    sha256 cellar: :any, ventura: "94d84fcb555549ed0b51edbe9281acb752f61550f28e7a999bd6e58b4da85c33"
+    sha256 cellar: :any, ventura: "589d6eef0f7f3db6587a7cbd1c3dea8949b1cf02b82f2f4cc5d3062586f5395a"
   end
 
   depends_on "cmake" => :build

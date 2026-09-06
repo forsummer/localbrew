@@ -14,7 +14,7 @@ class CaCertificates < Formula
   bottle do
     root_url "https://github.com/forsummer/localbrew/releases/download/ca-certificates"
     rebuild 2
-    sha256 cellar: :any_skip_relocation, ventura: "49d4f9c5eb1af32588c50355b2720715ad1967c640e7b1eb262e8c796c292f13"
+    sha256 cellar: :any_skip_relocation, ventura: "ca903a0fb17d6554b1c394edd1814a2fa2498d1f43cac2dd0af0b8d0d8b05dd9"
   end
 
   deny_network_access!

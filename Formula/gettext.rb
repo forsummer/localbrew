@@ -13,7 +13,7 @@ class Gettext < Formula
   bottle do
     root_url "https://github.com/forsummer/localbrew/releases/download/gettext"
     rebuild 2
-    sha256 ventura: "bd658a2d9d6b09631f957e8d6eea309ca1602c5addba69b18206ea97dd1cbeac"
+    sha256 ventura: "d9fbf20c1afaa7a01b83c268cadb17257977411480f6a9c9f46278e44884ba42"
   end
 
   depends_on "forsummer/localbrew/json-c" # for spit

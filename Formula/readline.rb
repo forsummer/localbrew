@@ -72,7 +72,7 @@ class Readline < Formula
   bottle do
     root_url "https://github.com/forsummer/localbrew/releases/download/readline"
     rebuild 1
-    sha256 cellar: :any, ventura: "6a872da0123f64f5ffa3f3a59db89a2454e1edb0ca16de3e0fba3061df3ea0d8"
+    sha256 cellar: :any, ventura: "1e456486f48733a6787c75733c99bf54687d38a288ad3e6896b5c02c7e137576"
   end
 
   keg_only :shadowed_by_macos, "macOS provides BSD libedit"

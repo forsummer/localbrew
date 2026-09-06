@@ -9,7 +9,7 @@ class Aria2 < Formula
   bottle do
     root_url "https://github.com/forsummer/localbrew/releases/download/aria2"
     rebuild 1
-    sha256 ventura: "c82a8dd6b7f62a81bbab7217bd90b0be661be38a2b182e4a42fa3c233a3362ce"
+    sha256 ventura: "2571ea59788ec08401c474481b05dbdf1ff354e7d171c45419e02f4f29d0e4b2"
   end
 
   depends_on "pkgconf" => :build

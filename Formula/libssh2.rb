@@ -17,7 +17,7 @@ class Libssh2 < Formula
   bottle do
     root_url "https://github.com/forsummer/localbrew/releases/download/libssh2"
     rebuild 1
-    sha256 cellar: :any, ventura: "01704740bcb11e10429ca1bda17e46a9c7bee99994c24eaf4814cc4d7c374e65"
+    sha256 cellar: :any, ventura: "c1e9a81e9150feaa3ee3ab574d74326160547be55baa825a2aca7ed5dcdbfbda"
   end
 
   head do
